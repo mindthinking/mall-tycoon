@@ -784,13 +784,24 @@ button:disabled {
 .boot h1 {
   margin: 0;
   font-size: clamp(3rem, 14vw, 4.8rem);
-  line-height: 0.95;
-  color: var(--color-cream);
+  line-height: 0.92;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  color: #ffe566;
+  -webkit-text-stroke: 7px #3b271c;
+  paint-order: stroke fill;
   text-shadow:
-    0 4px 0 var(--color-edge),
-    3px 0 0 var(--color-edge),
-    -3px 0 0 var(--color-edge),
-    0 -3px 0 var(--color-edge);
+    0 1px 0 #fff6c8,
+    0 2px 0 #ffd56a,
+    0 3px 0 #f0b429,
+    0 4px 0 #e09a1a,
+    0 5px 0 #c47a10,
+    0 6px 0 #a85f0c,
+    0 7px 0 #8a4a0a,
+    0 9px 0 #3b271c,
+    3px 11px 0 #3b271c,
+    -3px 9px 0 #3b271c,
+    0 14px 10px rgba(59, 39, 28, 0.35);
 }
 
 .splash-host {
